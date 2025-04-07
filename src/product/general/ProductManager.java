@@ -8,7 +8,7 @@ public class ProductManager {
         while (true) {
             System.out.println("===== 상품보기 =====");
 
-            System.out.println("[1.] [2.상품검색] [3.뒤로가기]");
+            System.out.println("[1.상품조회] [2.상품검색] [3.뒤로가기]");
             System.out.print("메뉴를 선택하세요: ");
             int num = Integer.parseInt(sc.nextLine());
             switch (num) {
